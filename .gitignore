@@ -54,3 +54,7 @@ celerybeat.pid
 .env
 .env.local
 
+
+
+/staticfiles
+*.sqlite3
