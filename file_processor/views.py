@@ -159,7 +159,7 @@ class TaskViewSet(viewsets.ModelViewSet):
             OpenApiExample(
                 'Create image task',
                 value={
-                    "file_path": "/path/to/image.jpg",
+                    "file_path": "./files/Screenshot 2025-07-04 at 16.50.47.png",
                     "task_type": "image",
                     "metadata": {"quality": "high", "format": "jpeg"}
                 },
@@ -175,7 +175,7 @@ class TaskViewSet(viewsets.ModelViewSet):
         
         POST /api/tasks/create_task/
         {
-            "file_path": "/path/to/file.jpg",
+            "file_path": "./files/Screenshot 2025-07-04 at 16.50.47.png",
             "task_type": "image",
             "metadata": {}
         }
@@ -416,7 +416,7 @@ class TaskViewSet(viewsets.ModelViewSet):
             OpenApiExample(
                 'Bulk create tasks',
                 value={
-                    "file_paths": ["/path/to/file1.jpg", "/path/to/file2.jpg", "/path/to/file3.jpg"],
+                    "file_paths": ["./files/Screenshot 2025-07-04 at 16.50.47.png",],
                     "task_type": "image",
                     "parallel": True
                 },
