@@ -16,7 +16,7 @@ ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
-    "*.railway.app",
+    "https://web-production-18d1.up.railway.app",
 ]
 
 
@@ -30,6 +30,7 @@ INSTALLED_APPS = [
 
     "rest_framework",
     "drf_spectacular",
+    "django_celery_beat",
 
     "file_processor",
 ]
