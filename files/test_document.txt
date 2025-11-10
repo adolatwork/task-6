@@ -1,0 +1,4 @@
+Bu test hujjat fayli.
+Bu yerda bir nechta qator bor.
+Bu fayl test qilish uchun yaratilgan.
+Django va Celery bilan ishlaydi.
